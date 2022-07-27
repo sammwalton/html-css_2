@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: gray;
+    height: 12vh;
+    display: flex;
+    justify-content: left;
+
+}
+#divs-header{
+    background-color: blue;
+    height: 7vh;
+    width: 4vw;
+    margin-left: 1em;
+    margin-top: .7em;
+}
+#p1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#p2 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer{
+    display: flex;
+    height: 96vh;
+    flex-direction: column;
+}
+#blue {
+    background-color: blue;
+    width: 98vw;
+    height: 24vh;
+}
+#aqua{
+    background-color: aqua;
+    height: 24vh;
+    width: 98vw;
+}
+#green{
+    background-color: green;
+    height: 24vh;
+    width: 98vw;
+}
+#yellow{
+    background-color: yellow;
+    height: 24vh;
+    width: 98vw;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+}
+img{
+    border-radius: 150%;
+    height: 10vh;
+    /* position: fixed; */
+
+}
